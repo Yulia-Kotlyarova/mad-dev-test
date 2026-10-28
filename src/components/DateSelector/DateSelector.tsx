@@ -5,7 +5,6 @@ type DateSelectorProps = {
 	onChange: (date: string) => void;
 };
 
-// TODO memo
 export const DateSelector = ({ value, onChange }: DateSelectorProps) => {
 	return (
 		<div className="flex flex-col gap-2">

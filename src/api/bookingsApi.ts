@@ -38,5 +38,3 @@ export const bookingsApi: BookingsApi = {
 		return mockServer.deleteBooking(id);
 	},
 };
-
-// TODO добавить runtime-валидация ответа, в том числе типов
